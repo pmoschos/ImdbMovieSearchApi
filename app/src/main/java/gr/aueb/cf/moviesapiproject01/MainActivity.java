@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
                     // TODO: set your key value (YOUR KEY VALUE) !
-                    String url = "https://imdb-api.com/en/API/SearchMovie/k_e2h9g4au/" + editText.getText().toString().trim();
+                    String url = "https://imdb-api.com/en/API/SearchMovie/YOUR_KEY_VALUE/" + editText.getText().toString().trim();
 
                     JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                                 @Override
