@@ -4,6 +4,10 @@ This is an app witch implements an API from https://www.imdb.com/ and allows use
 
 It represents into **RecyclerView** using **CardView** all the movies the IMDB API (https://imdb-api.com/) returns!
 
+Attention!
+Inside the MainActivity at line 65: String url = "https://imdb-api.com/en/API/SearchMovie/YOUR_KEY_VALUE/" + editText.getText().toString().trim(); 
+repclace the YOUR_KEY_VALUE with your API_JKEY after you complete the registration in (https://imdb-api.com/).
+
 Each item in CardView containts:
 - movie title
 - movie image
