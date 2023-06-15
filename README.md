@@ -7,7 +7,7 @@ It represents into **RecyclerView** using **CardView** all the movies the IMDB A
 Attention!
 Inside the MainActivity at line 65: String url = "https://imdb-api.com/en/API/SearchMovie/YOUR_KEY_VALUE/" + editText.getText().toString().trim(); 
 
-repclace the YOUR_KEY_VALUE with your API_JKEY after you complete the registration in (https://imdb-api.com/).
+repclace the YOUR_KEY_VALUE with your API_KEY after you complete the registration in (https://imdb-api.com/).
 
 Each item in CardView containts:
 - movie title
